@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "Here's a design that makes it easier for users to change their payout settings. What do you think?",
+  "Here's a design that makes users complete more initial account setup steps during signup. What do you think?",
+  "Here's a design that makes it easier for users to hide their page from search engines. What do you think?",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm a fine tuned LLM that acts as an executive-level stakeholder giving revenue-focused feedback on product designs.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
